@@ -1,8 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import { Card } from 'react-native-paper';
-
-import AssetExample from './components/AssetExample';
 
 export default function App() {
   return (
@@ -10,9 +7,6 @@ export default function App() {
       <Text style={styles.paragraph}>
         Change code in the editor and watch it change on your phone! Save to get a shareable url.
       </Text>
-      <Card>
-        <AssetExample />
-      </Card>
     </View>
   );
 }
